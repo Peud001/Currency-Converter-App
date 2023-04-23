@@ -1,2 +1,4 @@
 # Currency-Converter-App
 This currency converter application was built using HTML, CSS, and JavaScript, and utilizes the fetch API to retrieve currency data for 50 countries from an exchange rate API.
+The user interface allows users to select the currencies they want to convert and enter the amount they wish to convert. Once the user clicks on the calculate button, JavaScript dynamically retrieves the exchange rate for the selected currencies and displays the calculated value.
+The project demonstrates proficiency in working with web APIs and processing data in JavaScript. It also showcases the ability to implement client-side functionality using HTML and CSS to create a responsive and user-friendly interface. The code is well-organized and easy to understand, making it a great learning resource for others looking to build similar applications.
