@@ -10,27 +10,31 @@ html{
 body{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to top, #ACC0FE, #4B086D);
+    background: linear-gradient(to left, #c02425, #f0cb35);
 }
 
 .header{
     text-align: center;
     padding-top: 25px;
-    color: #fff;
 }
 .header h1{
     padding: 5px;
+    font-weight: bold;
 }
 .header p{
     padding: 10px;
     margin-bottom: 40px;
+}
+.header p span{
+    color: #0a650a;
+    font-weight: bolder;
 }
  .content{
     background: #fff;
     margin: auto;
     width: 500px;
     height: 60vh;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 .swap-button{
     width: 6em;
@@ -39,7 +43,7 @@ body{
     font-size: 1rem;
     font-weight: bold;
     margin-top: 1.3em;
-    background: #4B086D;
+    background: #0a650a;
     color: #fff;
 }
 .calculate{
@@ -49,7 +53,7 @@ body{
     font-size: 1rem;
     font-weight: bold;
     margin-top: 1.3em;
-    background: #4B086D;
+    background: #0a650a;
     color: #fff;
 }
 .swap-button:active,
@@ -65,11 +69,11 @@ body{
 .from select, .to select{
     width: 6em;
     height: 2em;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border: NONE;
-    background: #ACC0FE;
+    border: 2px solid #480808;
+    background: #f2da79;
 }
 .currency{
     display: flex;
@@ -83,6 +87,7 @@ body{
 .display-part p{
     font-size: 1rem;
     font-weight: bold;
+    color: #0a650a;
 }
 .rate{
     margin: 0 0 2em 0;
@@ -91,9 +96,8 @@ body{
     margin: 1.5em;
 }
 .input-amount{
-    background: #ACC0FE;
     border-radius: 3px;
-    border: 2px solid black;
+    border: 2px solid #480808;
     height: 25px;
     font-weight: 700;
     text-align: center;
